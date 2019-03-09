@@ -2,6 +2,9 @@
 A module to build validators for Swagger(OpenApi) Request parameters and Response objects.
 
 [![Tested on APIs.guru](http://api.apis.guru/badges/tested_on.svg)](https://APIs.guru)
+![Actions Status](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/badge/iamjoeker/swagvali)
+[![npm version](https://badge.fury.io/js/%40iamjoeker%2Fswagvali.svg)](https://badge.fury.io/js/%40iamjoeker%2Fswagvali)
+
 
 `Swagvali` uses [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) JSON schema validator as the default validation tool. However, [Joi](https://github.com/hapijs/joi) schema validator can be used instead of the json schema validator, by setting the option `joischema`.
 

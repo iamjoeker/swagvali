@@ -1,7 +1,12 @@
 {
-  "name": "swagvali",
+  "name": "@iamjoeker/swagvali",
   "version": "1.0.2",
+  "license": "MIT",
   "description": "A module to build validators for OpenApi (Swagger) Request parameters and Response objects",
+  "author": "Subeesh Chothendavida",
+  "contributors": [
+    "Joseph Kerby"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "test": "node $NODE_DEBUG_OPTION node_modules/.bin/ava test/*.js --tap",
@@ -10,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/subeeshcbabu/swagvali.git"
+    "url": "git+https://github.com/iamjoeker/swagvali.git"
   },
   "engines": {
     "node": "6"
@@ -24,12 +29,10 @@
     "validator",
     "validation"
   ],
-  "author": "Subeesh Chothendavida",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/subeeshcbabu/swagvali/issues"
+    "url": "https://github.com/iamjoeker/swagvali/issues"
   },
-  "homepage": "https://github.com/subeeshcbabu/swagvali#readme",
+  "homepage": "https://github.com/iamjoeker/swagvali#readme",
   "dependencies": {
     "co": "^4.6.0",
     "enjoi": "^2.2.4",
